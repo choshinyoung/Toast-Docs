@@ -35,9 +35,9 @@ Hello, World!
 
 ```js
 > true
-True
+true
 > false
-False
+false
 ```
 
 ## List
@@ -48,15 +48,32 @@ False
 
 ```js
 > [1, 2, 3]
-System.Object[]
+[1, 2, 3]
 > ['Hello', 'World']
-System.Object[]
+[hello, World]
 ```
 
 ## Function
 
-함수임
+함수입니다. 코드 여러 줄을 묶을 수 있습니다.
+
+### Example
+
+```js
+> () {
+  print "Wa";
+  print "sans"
+}
+function () { }
+```
 
 ## Null
 
-없음
+비어있는 값을 나타냅니다
+
+### Example
+
+```js
+> null
+
+```
