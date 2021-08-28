@@ -5,11 +5,9 @@ tagline:
 actionText: Start
 actionLink: /guide/
 features:
-- title: 쉽습니다
-  details: 난이도도
-- title: 빠릅니다
-  details: 딸기언어보단 빠름
-- title: 간단합니다
-  details: cmd랑 똑같음
+- title: Easy
+  details: 간단한 문법 덕분에 유저가 쉽게 사용할 수 있습니다
+- title: Simple
+  details: 쉽게 커스터마이징하고 자신의 프로젝트에 적용할 수 있습니다
 footer: made by yejun#3332
 ---
