@@ -1,6 +1,6 @@
 # 커맨드
 
-커맨드를 만드는 방법을 설명합니다.
+커맨드를 만들고 사용하는 방법입니다.
 
 ## 토스터 오브젝트 생성
 
@@ -19,6 +19,8 @@ toaster.Execute("[1, 2, 3]") // [1, 2, 3]
 
 ```cs
 toaster.AddCommand(ToastCommand.CreateAction<ToastContext, string>("print", (ctx, x) => Console.WriteLine(x)));
+// 람다 식에서 타입을 명시하면 타입 파라미터를 생략할 수 있습니다
+// toaster.AddCommand(ToastCommand.CreateAction("print", (ToastContext ctx, string x) => Console.WriteLine(x)));
 
 toaster.AddCommand(ToastCommand.CreateFunc<ToastContext, string>("input", (ctx) => Console.ReadLine()));
 ```
@@ -45,7 +47,7 @@ This is an Action command.
 ## Func 커맨드
 
 Func 커맨드는 리턴값이 있는 커맨드입니다.
-타입 파라미터의 마지막 타입이 리턴값의 타입입니다.
+타입 파라미터의 끝에 리턴 타입을 지정해야합니다.
 
 ```cs
 toaster.AddCommand(ToastCommand.CreateFunc<ToastContext, string>("input", (ctx) => Console.ReadLine()));
