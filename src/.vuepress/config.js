@@ -53,7 +53,6 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'toaster',
             'types',
             'command',
             'converter',
