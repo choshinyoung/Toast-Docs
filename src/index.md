@@ -6,8 +6,10 @@ actionText: Start
 actionLink: /guide/
 features:
 - title: Easy
-  details: 간단한 문법 덕분에 유저가 쉽게 사용할 수 있습니다
+  details: 유저가 쉽게 사용할 수 있습니다
 - title: Simple
-  details: 쉽게 커스터마이징하고 자신의 프로젝트에 적용할 수 있습니다
+  details: 짧은 코드로 간단하게 프로그래밍할 수 있습니다
+- title: Customize
+  details: 원하는 커맨드를 쉽게 만들 수 있습니다
 footer: made by yejun#3332
 ---
