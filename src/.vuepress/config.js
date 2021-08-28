@@ -54,6 +54,10 @@ module.exports = {
           children: [
             '',
             'types',
+            'command',
+            'converter',
+            'context',
+            'basicCommands'
           ]
         }
       ],
