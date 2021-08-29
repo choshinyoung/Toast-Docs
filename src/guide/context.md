@@ -23,9 +23,6 @@ ToastCommand.CreateFunc<float, ToastContext, float, float>("add", (x, ctx, y) =>
 ```
 
 현재 코드는 앞에 있는 커맨드가 먼저 실행됩니다.
-```cs
-ToastCommand.CreateFunc<float, ToastContext, float, float>("mul", (x, ctx, y) => x * y)
-```
 ```js
 > 1 add 2 mul 3
 9
@@ -33,6 +30,9 @@ ToastCommand.CreateFunc<float, ToastContext, float, float>("mul", (x, ctx, y) =>
 
 하지만 CreateFunc 메서드에서 우선순위를 지정해 먼저 실행할 커맨드를 정할 수 있습니다.
 ```cs
+/*
+ToastCommand.CreateFunc<float, ToastContext, float, float>("mul", (x, ctx, y) => x * y)
+*/
 ToastCommand.CreateFunc<float, ToastContext, float, float>("mul", (x, ctx, y) => x * y, 1)
 ```
 ```js

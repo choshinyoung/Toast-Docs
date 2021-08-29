@@ -19,8 +19,10 @@ toaster.Execute("[1, 2, 3]") // [1, 2, 3]
 
 ```cs
 toaster.AddCommand(ToastCommand.CreateAction<ToastContext, string>("print", (ctx, x) => Console.WriteLine(x)));
-// 람다 식에서 타입을 명시하면 타입 파라미터를 생략할 수 있습니다
-// toaster.AddCommand(ToastCommand.CreateAction("print", (ToastContext ctx, string x) => Console.WriteLine(x)));
+/* 
+람다 식에서 타입을 명시하면 타입 파라미터를 생략할 수 있습니다
+toaster.AddCommand(ToastCommand.CreateAction("print", (ToastContext ctx, string x) => Console.WriteLine(x)));
+*/
 
 toaster.AddCommand(ToastCommand.CreateFunc<ToastContext, string>("input", (ctx) => Console.ReadLine()));
 ```
