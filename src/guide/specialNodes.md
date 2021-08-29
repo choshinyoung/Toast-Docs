@@ -10,7 +10,7 @@
 ```cs
 ToastCommand.CreateAction<ToastContext, int, FunctionNode>("repeat", (ctx, x, y) => {
     for (int i = 0; i < x; i++) {
-        ctx.Toaster.ExecuteFunction(y, new[] { i }, ctx);
+        ctx.Toaster.ExecuteFunction(y, new object[] { i }, ctx);
     }
 })
 ```
