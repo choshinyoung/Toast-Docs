@@ -27,7 +27,7 @@ toaster.AddCommand(ToastCommand.CreateFunc<ToastContext, string>("input", (ctx) 
 
 토스트 커맨드에는 Action과 Func 두 종류가 있습니다.
 
-`< >` 안에 적힌 타입 파라미터는 커맨드의 파라미터 타입 또는 리턴 타입을 지정합니다.
+`< >` 안에 적힌 타입 파라미터는 파라미터의 타입 또는 리턴 타입을 지정합니다.
 
 `ToastContext`는 toaster 관련 데이터를 전달하는, 커맨드 사용시 유저가 전달하지 않는 파라미터입니다. `ToastContext`는 타입 파라미터에 단 한 개가 있어야됩니다.
 
