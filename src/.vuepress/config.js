@@ -57,8 +57,7 @@ module.exports = {
             'command',
             'converter',
             'context',
-            'specialNodes',
-            'basicCommands'
+            'specialNodes'
           ]
         }
       ],
