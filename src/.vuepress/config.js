@@ -61,6 +61,23 @@ module.exports = {
           ]
         }
       ],
+      '/api/': [
+        {
+          title: 'Api',
+          collapsable: false,
+          children: [
+            '',
+            'Toaster',
+            'ToastExecutor',
+            'ToastCommand',
+            'ToastConverter',
+            'ToastContext',
+            'Nodes',
+            'BasicCommands',
+            'BasicConverters'
+          ]
+        }
+      ],
     }
   },
 
