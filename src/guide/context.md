@@ -13,7 +13,7 @@ ToastCommand.CreateFunc<ToastContext, float, float, float>("add", (ctx, x, y) =>
 3
 ```
 
-하지만 ToastContext의 위치를 바꾸면 커맨드의 가독성을 높일 수 있습니다.
+`ToastContext`의 위치를 바꾸면 커맨드의 가독성을 높일 수 있습니다.
 ```cs
 ToastCommand.CreateFunc<float, ToastContext, float, float>("add", (x, ctx, y) => x + y)
 ```
@@ -28,7 +28,7 @@ ToastCommand.CreateFunc<float, ToastContext, float, float>("add", (x, ctx, y) =>
 9
 ```
 
-하지만 CreateFunc 메서드에서 우선순위를 지정해 먼저 실행할 커맨드를 정할 수 있습니다.
+하지만 `CreateFunc` 메서드에서 우선순위를 지정해 먼저 실행할 커맨드를 정할 수 있습니다.
 ```cs
 /*
 ToastCommand.CreateFunc<float, ToastContext, float, float>("mul", (x, ctx, y) => x * y)
@@ -40,7 +40,7 @@ ToastCommand.CreateFunc<float, ToastContext, float, float>("mul", (x, ctx, y) =>
 7
 ```
 
-우선순위를 지정하지 않은 커맨드의 기본 우선순위 값은 0입니다. 우선순위가 높은 커맨드가 먼저 실행됩니다.
+우선순위를 지정하지 않은 커맨드의 기본 우선순위 값은 `0`입니다. 우선순위가 높은 커맨드가 먼저 실행됩니다.
 
 
 컨텍스트 위치 예제는 [여기서](https://github.com/choshinyoung/Toast/blob/master/Examples/Calculator.cs) 볼 수 있습니다.
@@ -50,7 +50,7 @@ ToastCommand.CreateFunc<float, ToastContext, float, float>("mul", (x, ctx, y) =>
 
 커스텀 컨텍스트를 사용하면 커맨드에 사용자 지정 데이터를 간단히 전달할 수 있습니다.
 
-먼저 ToastContext를 상속하는 클래스를 만듭니다.
+먼저 `ToastContext`를 상속하는 클래스를 만듭니다.
 ```cs
 class CustomContext : ToastContext
 {
@@ -65,7 +65,7 @@ class CustomContext : ToastContext
 }
 ```
 
-ToastContext 대신 CustomContext를 파라미터로 사용하는 커맨드를 만듭니다.
+`ToastContext` 대신 `CustomContext`를 파라미터로 사용하는 커맨드를 만듭니다.
 ```cs
 toaster.AddCommand(ToastCommand.CreateFunc<CustomContext, int>("getValue", (ctx) => ctx.Value));
 ```
