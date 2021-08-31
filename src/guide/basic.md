@@ -13,7 +13,7 @@ Toast의 모든 키워드, 연산자, 구문, 메서드는 커맨드입니다.
 > cmd1 cmd1Param1 cmd1Param2
 ```
 
-커맨드의 실행 결과를 파라미터로 사용할 수 있습니다.
+커맨드를 파라미터로 사용할 수 있습니다.
 
 ```js
 > cmd1 cmd2 cmd2Param1 cmd1Param1
