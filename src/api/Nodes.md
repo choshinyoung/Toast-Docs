@@ -11,7 +11,7 @@
 ### Value
 
 ```cs
-readonly object Value;
+readonly object Value
 ```
 
 ## TextNode
@@ -21,7 +21,7 @@ readonly object Value;
 ### Values
 
 ```cs
-readonly object[] Values;
+readonly object[] Values
 ```
 
 문자열 또는 문자열 보간에 사용된 값을 저장합니다.
@@ -33,7 +33,7 @@ readonly object[] Values;
 ### Value
 
 ```cs
-readonly INode[] Value;
+readonly INode[] Value
 ```
 
 ## FunctionNode
@@ -43,7 +43,7 @@ readonly INode[] Value;
 ### Parameters
 
 ```cs
-readonly string[] Parameters;
+readonly string[] Parameters
 ```
 
 함수의 파라미터 변수의 이름들입니다.
@@ -51,7 +51,7 @@ readonly string[] Parameters;
 ### Lines
 
 ```cs
-readonly INode[] Lines;
+readonly INode[] Lines
 ```
 
 함수의 본문입니다.
@@ -63,7 +63,7 @@ readonly INode[] Lines;
 ### Name
 
 ```cs
-readonly string Name;
+readonly string Name
 ```
 
 변수 또는 커맨드의 이름입니다.
@@ -75,7 +75,7 @@ readonly string Name;
 ### Command
 
 ```cs
-readonly ToastCommand Command;
+readonly ToastCommand Command
 ```
 
 해당 커맨드가 실행할 `ToastCommand`입니다.
@@ -83,7 +83,7 @@ readonly ToastCommand Command;
 ### Parameters
 
 ```cs
-readonly INode[] Parameters;
+readonly INode[] Parameters
 ```
 
 커맨드의 인자(Argument)입니다.
@@ -95,5 +95,5 @@ readonly INode[] Parameters;
 ### Values
 
 ```cs
-readonly INode[] Values;
+readonly INode[] Values
 ```
