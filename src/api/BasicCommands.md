@@ -412,7 +412,7 @@ Func("as", (object, ToastContext, VariableNode) => object)
 ```
 
 x의 타입을 y로 변환한 값을 리턴합니다.
-y에는 [Toaster.TypeAliases](Toaster.md#typealias)를 대입하여 사용할 수 있습니다.
+y에는 [Toaster.TypeAliases](Toaster.md#typealias)의 값 중 하나를 대입하여 사용할 수 있습니다.
 
 ### Execute
 
