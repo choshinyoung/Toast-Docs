@@ -68,7 +68,6 @@ module.exports = {
           children: [
             '',
             'Toaster',
-            'ToastExecutor',
             'ToastCommand',
             'ToastConverter',
             'ToastContext',
