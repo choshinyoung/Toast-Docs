@@ -84,9 +84,11 @@ object ExecuteCommand(ToastCommand cmd, object[] parameters, ToastContext contex
 
 ```cs
 object ExecuteConverter<T>(object obj, ToastContext context = null)
+object ExecuteConverter(object obj, Type type, ToastContext context = null)
+object ExecuteConverter(ToastConverter cvt, object parameter, ToastContext context = null)
 ```
 
-오브젝트 `obj`의 타입을 `T`로 변환합니다.
+오브젝트의 타입을 변환합니다.
 
 ## ExecuteFunction()
 
