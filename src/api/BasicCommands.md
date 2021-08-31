@@ -399,6 +399,7 @@ Action("var", (ToastContext, CommandNode))
 ```
 
 `var x is y`: y를 리턴하는 커맨드 x를 생성해 등록합니다. 즉 x를 변수처럼 사용할 수 있습니다.
+
 `var x add y`: += 연산자와 같습니다. 그 외의 커맨드도 이 커맨드와 같습니다.
 
 ### Convert
