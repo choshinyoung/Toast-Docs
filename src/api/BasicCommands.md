@@ -8,7 +8,7 @@
 static ToastCommand[] All
 ```
 
-모든 BasicCommand를 모아둔 배열입니다.
+모든 기본 커맨드를 모아둔 배열입니다.
 
 ## Literals
 
