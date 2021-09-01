@@ -69,19 +69,19 @@ false
 > [1, 2, 3]
 [1, 2, 3]
 > ['Hello', 'World', 1, [1, 2, 3]]
-['Hello', 'World', 1, [1, 2, 3]]
+[Hello, World, 1, [1, 2, 3]]
 ```
 
 ## function
 
 함수입니다. 코드 여러 줄을 묶을 수 있습니다.
-줄은 세미콜론 또는 줄바꿈으로 구분됩니다.
+줄은 세미콜론으로 구분됩니다.
 
 ### Example
 
 ```js
 > () {
-  print "Wa"
+  print "Wa";
   print "sans"
 }
 function () { }
