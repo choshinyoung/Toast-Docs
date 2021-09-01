@@ -24,7 +24,7 @@ readonly object Value
 readonly object[] Values
 ```
 
-문자열 또는 문자열 포매팅에 사용된 값을 저장합니다.
+문자열 또는 문자열 포매팅에 사용된 `INode` 값을 저장합니다.
 
 ## ListNode
 

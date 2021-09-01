@@ -8,7 +8,7 @@
 Toaster Toaster { get; internal set; }
 ```
 
-현재 이 커맨드 또는 컨버터가 실행되는 토스터 오브젝트입니다.
+현재 이 커맨드 또는 컨버터를 실행중인 토스터 오브젝트입니다.
 
 ## ToastContext()
 
