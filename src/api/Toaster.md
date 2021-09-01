@@ -59,7 +59,13 @@ IReadOnlyList<ToastConverter> GetConverters()
 ## TypeAlias
 
 ```cs
-readonly Dictionary<string, Type> TypeAliases
+readonly Dictionary<string, Type> TypeAliases = {
+    { "text", typeof(string) },
+    { "number", typeof(long) },
+    { "float", typeof(float) },
+    { "bool", typeof(bool) },
+    { "list", typeof(object[]) }
+}
 ```
 
 타입의 별명입니다. [BasicCommands.Convert](BasicCommands.md#Convert)에서 사용됩니다.
