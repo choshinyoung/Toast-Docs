@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: toast.png
+heroImage: toast.svg
 tagline: 
 actionText: Start
 actionLink: /guide/
