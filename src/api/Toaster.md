@@ -89,7 +89,7 @@ object ExecuteCommand(ToastCommand cmd, object[] parameters, ToastContext contex
 ## ExecuteConverter()
 
 ```cs
-object ExecuteConverter<T>(object obj, ToastContext context = null)
+T ExecuteConverter<T>(object obj, ToastContext context = null)
 object ExecuteConverter(object obj, Type type, ToastContext context = null)
 object ExecuteConverter(ToastConverter cvt, object parameter, ToastContext context = null)
 ```
