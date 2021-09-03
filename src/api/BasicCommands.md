@@ -301,24 +301,24 @@ static ToastCommand[] Statements
 ### If
 
 ```cs
-Func("if", (ToastContext, bool, object) => object)
+Func("if", (ToastContext, bool, FunctionNode) => object)
 ```
 ```js
 > if x y
 ```
 
-x가 true라면 y를, false라면 null을 리턴합니다.
+x가 true라면 y를 실행하고, false라면 null을 리턴합니다.
 
 ### Else
 
 ```cs
-Func("else", (object, ToastContext, object) => object)
+Func("else", (object, ToastContext, FunctionNode) => object)
 ```
 ```js
 > if x y else z
 ```
 
-if와 함께 사용하여, x가 true라면 y를, false라면 z를 리턴합니다.
+if와 함께 사용하여, x가 true라면 y를, false라면 z를 실행합니다.
 
 ### While
 
