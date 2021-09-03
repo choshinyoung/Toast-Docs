@@ -312,7 +312,7 @@ x가 true라면 y를 실행하고, false라면 null을 리턴합니다.
 ### Else
 
 ```cs
-Func("else", (object, ToastContext, FunctionNode) => object)
+Func("else", (CommandNode, ToastContext, FunctionNode) => object)
 ```
 ```js
 > if x y else z
