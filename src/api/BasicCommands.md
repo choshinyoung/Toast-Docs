@@ -494,7 +494,7 @@ Func("indexOf", (ToastContext, object[], object) => int)
 Func("filter", (ToastContext, object[], FunctionNode) => object[])
 ```
 ```js
-> indexOf x (y) {
+> filter x (y) {
 
 }
 ```
