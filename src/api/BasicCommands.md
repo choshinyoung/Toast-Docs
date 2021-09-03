@@ -442,7 +442,7 @@ x 이상 y 미만의 수 중 하나를 랜덤으로 선택합니다.
 Func("randomChoice", (ToastContext, object[]) => object)
 ```
 ```js
-> randomChoice x y
+> randomChoice x
 ```
 
 배열 x에서 요소 한 개를 랜덤으로 선택합니다.
