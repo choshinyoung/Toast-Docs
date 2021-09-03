@@ -274,7 +274,7 @@ Func("bitNot", (ToastContext, int) => int)
 Func("lShift", (int, ToastContext, int) => int)
 ```
 ```js
-> lShift x
+> x lShift y
 ```
 
 왼쪽 쉬프트 연산자입니다.
@@ -285,7 +285,7 @@ Func("lShift", (int, ToastContext, int) => int)
 Func("rShift", (int, ToastContext, int) => int)
 ```
 ```js
-> rShift x
+> x rShift y
 ```
 
 오른쪽 쉬프트 연산자입니다.
