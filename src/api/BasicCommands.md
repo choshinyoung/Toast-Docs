@@ -535,7 +535,6 @@ Func("append", (ToastContext, object, object[]) => object[])
 ```
 
 배열 y에 x를 추가합니다.
-두 배열을 합합니다.
 
 ### Remove
 
