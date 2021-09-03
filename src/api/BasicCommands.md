@@ -561,7 +561,7 @@ Func("sort", (ToastContext, object[]) => object[])
 ### Shuffle
 
 ```cs
-Func("sort", (ToastContext, object[]) => object[])
+Func("shuffle", (ToastContext, object[]) => object[])
 ```
 ```js
 > shuffle x
