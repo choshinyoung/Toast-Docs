@@ -643,17 +643,6 @@ Func("contains", (ToastContext, string, string) => bool)
 
 문자열 x에 y가 포함되는지 확인합니다.
 
-### EndsWith
-
-```cs
-Func("endsWith", (ToastContext, string, string) => bool)
-```
-```js
-> endsWith x y
-```
-
-문자열 x가 y로 끝나는지 확인합니다.
-
 ### Trim
 
 ```cs
