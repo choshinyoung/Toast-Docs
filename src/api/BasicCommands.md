@@ -558,6 +558,17 @@ Func("sort", (ToastContext, object[]) => object[])
 
 배열을 정렬합니다.
 
+### SortAs
+
+```cs
+Func("sortAs", (ToastContext, object[], FunctionNode) => object[])
+```
+```js
+> sortAs x y
+```
+
+배열을 x의 각 요소를 파라미터로 하는 함수 y의 실행결과를 기준으로 정렬합니다.
+
 ### Shuffle
 
 ```cs
