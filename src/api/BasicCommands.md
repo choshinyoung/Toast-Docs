@@ -671,7 +671,7 @@ Func("substring", (ToastContext, string, int, int) => string)
 Func("join", (string, ToastContext, object) => string)
 ```
 ```js
-> join x y
+> x join y
 ```
 
 두 문자열을 결합합니다. 만약 y가 배열이라면 x를 분리자로 사용해 y의 요소를 결합합니다.
