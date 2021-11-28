@@ -528,24 +528,24 @@ Func("combine", (ToastContext, object[], object[]) => object[])
 ### Append
 
 ```cs
-Func("append", (ToastContext, object, object[]) => object[])
+Func("append", (ToastContext, object[], object) => object[])
 ```
 ```js
 > append x y
 ```
 
-배열 y에 x를 추가합니다.
+배열 x에 y를 추가합니다.
 
 ### Remove
 
 ```cs
-Func("remove", (ToastContext, object, object[]) => object[])
+Func("remove", (ToastContext, object[], object) => object[])
 ```
 ```js
 > remove x y
 ```
 
-배열 y에서 x를 제거합니다.
+배열 x에서 y를 제거합니다.
 
 ### Sort
 
